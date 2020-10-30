@@ -19,7 +19,7 @@
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
         "size": {"value": 20},
-        "color": {"range": ["red","orange","yellow","lime","green","teal","blue","purple","pink], "legend": null} 
+        "color": {"scale": {"scheme": "rainbow"}, "legend": null} 
       }
     }
   ],
