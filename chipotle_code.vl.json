@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 4000,
-  "height": 2400,
+  "width": 1000,
+  "height": 600,
   "layer": [
     {
       "data": {
@@ -18,8 +18,8 @@
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
-        "size": {"value": 1},
-        "color": {"field": "state", "scale": "rainbow"}
+        "size": {"value": 10},
+        "color": {"field": "state", "type": "nominal"}
       }
     }
   ],
