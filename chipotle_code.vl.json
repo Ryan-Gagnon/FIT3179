@@ -12,13 +12,13 @@
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
     },
     {
-      "data": {"url": "chipotle_stores_csv.csv"},
+      "data": {"url": "chipotle_data.csv"},
       "projection": {"type": "albersUsa"},
       "mark": "circle",
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
-        "size": {"value": 50},
+        "size": {"value": 10},
         "color": {"value": "steelblue"}
       }
     }
