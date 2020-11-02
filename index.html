@@ -11,11 +11,11 @@
   
 <body>
 <h1>Chipotle Store Locations in the U.S.A</h1>
-<div id="chipotle_map"></div>
+<div id="vis"></div>
   
 <script type="text/javascript">
-  var vis1 = "https://Ryan-Gagnon.github.io/FIT3179/choropleth_code.vl.json";
-  vegaEmbed('#chipotle_map', vis1).then(function(result) {
+  var spec = "https://Ryan-Gagnon.github.io/FIT3179/chipotle_code.vl.json";
+  vegaEmbed('#vis', spec).then(function(result) {
   }).catch(console.error);
 </script>
   
