@@ -32,9 +32,9 @@
    },
   "tooltip": [
    {"field": "state", "type": "nominal", "title": "State: "},
-   {"field": "stores", "type": "quantitative", "title": "Stores: "},
-   {"field": "pop", "type": "quantitative", "title": "Population: ","format": ","},
-   {"field": "statepop", "type": "quantitative","title": "Stores per 100K Population: ", "format": ".2f"},
+   {"field": "stores", "type": "quantitative", "title": "Stores: ", "format": ","},
+   {"field": "pop", "type": "quantitative", "title": "Population: ", "format": ","},
+   {"field": "statepop", "type": "quantitative","title": "Stores per 100K Population: ", "format": ".2f"}
    ]
  }
 }
