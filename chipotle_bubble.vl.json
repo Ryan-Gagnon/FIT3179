@@ -27,6 +27,8 @@
    "scale": {"range": [10, 500]},
    "legend": {"format": ".2f"}
    }
-  "opacity": {"value": 0.5"}
+  "opacity": {
+   "value": 0.5"
+   }
  }
 }
