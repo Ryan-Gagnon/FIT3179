@@ -1,7 +1,7 @@
 {
  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
- "width": 1000,
- "height": 1000,
+ "width": 800,
+ "height": 800,
  "title": "Chipotle Stores by State Population",
  "data": {"url": "state_data.csv"},
  "mark": "circle",
@@ -19,7 +19,8 @@
   "color": {
    "field": "state",
    "type": "nominal",
-   "scale": {"scheme": "category20"}
+   "scale": {"scheme": "category20"},
+   "legend": null
     },
   "size": {
    "field": "statepop",
