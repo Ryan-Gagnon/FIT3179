@@ -28,7 +28,7 @@
    "legend": {"format": ".2f"}
    }
   "opacity": {
-   "value": 0.5"
+   "value": "0.5"
    }
  }
 }
