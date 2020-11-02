@@ -9,7 +9,7 @@
         "format": {"type": "topojson", "feature": "states"}
       },
       "projection": {"type": "albersUsa"},
-      "mark": {"type": "geoshape", "fill": "rosewood", "stroke": "white"}
+      "mark": {"type": "geoshape", "fill": "Apricot", "stroke": "white"}
     },
     {
       "data": {"url": "chipotle_data.csv"},
