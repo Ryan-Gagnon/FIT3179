@@ -18,7 +18,7 @@
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
-        "size": {"value": 20},
+        "size": {"value": 10},
         "color": {"value": "firebrick"},
         "tooltip": {"field": "state", "type": "Nominal"}
       }
