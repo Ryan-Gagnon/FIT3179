@@ -6,23 +6,27 @@
  "data": {"url": "state_data.csv"},
  "mark": "circle",
  "encoding": {
- "x": {
-  "field": "pop",
+  "x": {
+   "field": "pop",
+    "type": "quantitative",
+    "title": "Population"
+    },
+  "y": {
+   "field": "stores",
+    "type": "quantitative",
+    "title": "Number of Stores"
+    },
+  "color": {
+   "field": "state",
+   "type": "nominal",
+   "scale": {"scheme": "category20"}
+    },
+  "size": {
+   "field": "statepop",
    "type": "quantitative",
-   "title": "Population"
-   },
- "y": {
-  "field": "stores",
-   "type": "quantitative",
-   "title": "Number of Stores"
-   },
- "color": {
-  "field": "state",
-  "type": "nominal"
-   },
- "size": {
-  "field": "statepop",
-  "type": "quantitative"
- }
+   "scale": {"range": [10, 500]},
+   "legend": {"format": ".2f"}
+   }
+  "opacity": {"value": 0.5"}
  }
 }
