@@ -9,7 +9,7 @@
         "format": {"type": "topojson", "feature": "states"}
       },
       "projection": {"type": "albersUsa"},
-      "mark": {"type": "geoshape", "fill": "lightred", "stroke": "white"}
+      "mark": {"type": "geoshape", "fill": "rosewood", "stroke": "white"}
     },
     {
       "data": {"url": "chipotle_data.csv"},
@@ -19,7 +19,7 @@
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
         "size": {"value": 20},
-        "color": {"field": "state", "scale": ["brown"], "legend": null} 
+        "color": {"value": "firebrick"} 
       }
     }
   ],
