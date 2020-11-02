@@ -11,11 +11,16 @@
   
 <body>
 <h1>Chipotle Store Locations in the U.S.A</h1>
-<div id="vis"></div>
+<div id="vis1"></div>
+<h2>Stores by Population of States</h2>
+<div id="vis2"></div>
   
 <script type="text/javascript">
-  var spec = "https://Ryan-Gagnon.github.io/FIT3179/chipotle_code.vl.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  var spec1 = "https://Ryan-Gagnon.github.io/FIT3179/chipotle_code.vl.json";
+  vegaEmbed('#vis1', spec1).then(function(result) {
+  }).catch(console.error);
+  var spec2 = "https://Ryan-Gagnon.github.io/FIT3179/chipotle_bubble.vl.json";
+  vegaEmbed('#vis2', spec2).then(function(result) {
   }).catch(console.error);
 </script>
   
