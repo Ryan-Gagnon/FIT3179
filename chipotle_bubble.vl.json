@@ -24,7 +24,7 @@
   "size": {
    "field": "statepop",
    "type": "quantitative",
-   "scale": {"range": [30, 800]},
+   "scale": {"range": [90, 2400]},
    "legend": {"format": ".2f"}
    },
   "opacity": {
